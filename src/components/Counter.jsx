@@ -20,15 +20,13 @@ function Counter() {
 
 
   return (
-    <div className='container'>
-  <div className='putas'>{numbers.split("").map((number, index) => {
+  
+  <div className='container'>{numbers.split("").map((number, index) => {
           return (
               <div className='box' key={index}>{number}</div>
           )
         })}
   </div>
-</div>
-
   )
 }
 export default Counter
